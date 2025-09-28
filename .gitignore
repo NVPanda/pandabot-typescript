@@ -1,0 +1,54 @@
+assets/auth/baileys
+.vscode
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Ambiente
+.env
+.env.*.local
+.env.local
+
+# Banco de dados (caso use SQLite ou dumps locais)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+dump.sql
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# SO e arquivos temporários
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Test coverage
+coverage/
+
+# Outros
+logs/
+debug.log
+pids/
+*.pid
+*.seed
+
+# Git
+*.orig
+
+# Optional: PM2 process logs
+pids/
+*.log
